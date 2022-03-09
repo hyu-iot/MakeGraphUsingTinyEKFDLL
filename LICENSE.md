@@ -1,5 +1,6 @@
 MIT License
 
+Copyright (c) Simon D. Levy
 Copyright (c) 2022 DukiChoi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
