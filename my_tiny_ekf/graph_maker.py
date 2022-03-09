@@ -1,3 +1,10 @@
+
+ * MakeGraphUsingTinyEKFDLL
+ *
+ * Copyright (C) 2022 DukiChoi
+ *
+ * MIT License
+
 # -*- coding: utf-8 -*-
 from calendar import c
 from inspect import _void
@@ -17,7 +24,6 @@ i = c_double(0)
 pi = pointer(i)
 x = []
 y = []
-
 z = []
 
 port = 'COM6'
