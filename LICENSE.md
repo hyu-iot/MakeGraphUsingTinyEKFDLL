@@ -1,6 +1,6 @@
-TinyEKF
+MakeGraphUsingTinyEKFDLL
 
-Copyright (c) Simon D. Levy
+Copyright (c) Byungkeun Choi.
 
 All rights reserved. 
 
