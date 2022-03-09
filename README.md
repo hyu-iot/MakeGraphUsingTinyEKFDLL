@@ -1,9 +1,8 @@
 # MakeGraphUsingTinyEKFDLL
 
 This uses DLL with python ctypes module to draw a 3D graph.
-DLL is compiled by MS Visual Studio and the cpp file before the compilation includes the TinyEKF codes
-which the License.md is for.
-You can check the original code at https://github.com/simondlevy/TinyEKF 
+DLL is compiled by MS Visual Studio and the cpp file before the compilation includes the TinyEKF codes.
+You can check the original TinyEKF code at https://github.com/simondlevy/TinyEKF 
 
   I used the TinyEKF to use Extended Kalman Filter while deriving the position of a imu sensor in 3-axis from 3 types of data(accelerometer-a,angular velocity-w, geomagnetic field-h) the sensor is measuring.
   
