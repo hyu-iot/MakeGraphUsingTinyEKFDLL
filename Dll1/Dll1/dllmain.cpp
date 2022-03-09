@@ -1,7 +1,7 @@
-﻿// dllmain.cpp : DLL 애플리케이션의 진입점을 정의합니다.
+// dllmain.cpp : DLL 애플리케이션의 진입점을 정의합니다.
 #include "pch.h"
 
-/* USER CODE BEGIN Header */
+
 /**
   ******************************************************************************
   * @file           : main.c
@@ -25,8 +25,6 @@
 
 //#include "TinyEKF.h"
 
-
-
 /*
  * TinyEKF: Extended Kalman Filter for Arduino and TeensyBoard.
  *
@@ -37,16 +35,6 @@
 
 
 
- // Support both Arduino and command-line versions
-
-
- /*
-  * TinyEKF: Extended Kalman Filter for embedded processors
-  *
-  * Copyright (C) 2015 Simon D. Levy
-  *
-  * MIT License
-  */
 
   /* Cholesky-decomposition matrix-inversion code, adapated from
      http://jean-pierre.moreau.pagesperso-orange.fr/Cplus/choles_cpp.txt */
