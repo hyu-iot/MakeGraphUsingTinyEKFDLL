@@ -1,0 +1,6 @@
+﻿  dllmain.cpp
+C:\Users\cbcc1\OneDrive - 한양대학교\projects\Dll1\Dll1\dllmain.cpp(823,12): warning C4273: 'make_string': dll 연결이 일치하지 않습니다.
+C:\Users\cbcc1\OneDrive - 한양대학교\projects\Dll1\Dll1\pch.h(25,39): message : 'make_string'의 이전 정의를 참조하십시오.
+  pch.cpp
+     C:\Users\cbcc1\OneDrive - 한양대학교\projects\Dll1\x64\Debug\Dll1.lib 라이브러리 및 C:\Users\cbcc1\OneDrive - 한양대학교\projects\Dll1\x64\Debug\Dll1.exp 개체를 생성하고 있습니다.
+  Dll1.vcxproj -> C:\Users\cbcc1\OneDrive - 한양대학교\projects\Dll1\x64\Debug\Dll1.dll
