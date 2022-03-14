@@ -1,9 +1,9 @@
 
- * MakeGraphUsingTinyEKFDLL
- *
- * Copyright (C) 2022 DukiChoi
- *
- * MIT License
+#  * MakeGraphUsingTinyEKFDLL
+#  *
+#  * Copyright (C) 2022 DukiChoi
+#  *
+#  * MIT License
 
 # -*- coding: utf-8 -*-
 from calendar import c
@@ -20,6 +20,10 @@ import signal
 import threading
 import ctypes
 from ctypes import *
+import os
+#os.add_dll_directory(os.getcwd())
+os.environ['PATH'] = './lib.dll' + os.pathsep + os.environ['PATH']
+
 i = c_double(0)
 pi = pointer(i)
 x = []
